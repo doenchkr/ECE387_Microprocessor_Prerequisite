@@ -1,4 +1,3 @@
-# ECE387_Microprocessor_Prerequisite
 //Kevin Doench
 //ECE 387
 //Section A
@@ -12,34 +11,59 @@
 int ledPin = 8;
 void setup() {
 pinMode(ledPin,OUTPUT);
-
 }
 
 void loop() {
-  //S
-  flash(250);
-  flash(250);
-  flash(250);
-  delay(300);
-  
-  //O
-  flash(600);
-  flash(600);
-  flash(600);
-  delay(300);
+  // put your main code here, to run repeatedly:
+//S
+digitalWrite(ledPin, HIGH);
+delay(250);
+digitalWrite(ledPin, LOW);
+delay(250);
 
-  //S
-  flash(250);
-  flash(250);
-  flash(250);
-  delay(1000);
+digitalWrite(ledPin, HIGH);
+delay(250);
+digitalWrite(ledPin, LOW);
+delay(250);
+
+digitalWrite(ledPin, HIGH);
+delay(250);
+digitalWrite(ledPin, LOW);
+delay(750);
+
+//O
+digitalWrite(ledPin, HIGH);
+delay(750);
+digitalWrite(ledPin, LOW);
+delay(250);
+
+digitalWrite(ledPin, HIGH);
+delay(750);
+digitalWrite(ledPin, LOW);
+delay(250);
+
+digitalWrite(ledPin, HIGH);
+delay(750);
+digitalWrite(ledPin, LOW);
+delay(750);
+
+//S
+digitalWrite(ledPin, HIGH);
+delay(250);
+digitalWrite(ledPin, LOW);
+delay(250);
+
+digitalWrite(ledPin, HIGH);
+delay(250);
+digitalWrite(ledPin, LOW);
+delay(250);
+
+digitalWrite(ledPin, HIGH);
+delay(250);
+digitalWrite(ledPin, LOW);
+delay(1000);
+
+//Repeat
+
+
 }
-
-//this section of code defines the term "flash"
-  void flash(int timex)
-  {
-    digitalWrite(ledPin, HIGH);
-    delay(timex);
-    digitalWrite(ledPin,LOW);
-    delay(timex);
-  }
