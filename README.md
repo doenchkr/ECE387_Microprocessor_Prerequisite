@@ -28,99 +28,100 @@ void loop() {
 
 // put your main code here, to run repeatedly:
 
+
 //S
 
-digitalWrite(ledPin, HIGH);
+	digitalWrite(ledPin, HIGH);
 
-delay(250);
+	delay(250);
 
-digitalWrite(ledPin, LOW);
+	digitalWrite(ledPin, LOW);
 
-delay(250);
-
-
-
-digitalWrite(ledPin, HIGH);
-
-delay(250);
-
-digitalWrite(ledPin, LOW);
-
-delay(250);
+	delay(250);
 
 
 
-digitalWrite(ledPin, HIGH);
+	digitalWrite(ledPin, HIGH);
 
-delay(250);
+	delay(250);
 
-digitalWrite(ledPin, LOW);
+	digitalWrite(ledPin, LOW);
 
-delay(750);
+	delay(250);
+
+
+
+	digitalWrite(ledPin, HIGH);
+
+	delay(250);
+
+	digitalWrite(ledPin, LOW);
+
+	delay(750);
 
 
 
 //O
 
-digitalWrite(ledPin, HIGH);
+	digitalWrite(ledPin, HIGH);
 
-delay(750);
+	delay(750);
 
-digitalWrite(ledPin, LOW);
+	digitalWrite(ledPin, LOW);
 
-delay(250);
-
-
-
-digitalWrite(ledPin, HIGH);
-
-delay(750);
-
-digitalWrite(ledPin, LOW);
-
-delay(250);
+	delay(250);
 
 
 
-digitalWrite(ledPin, HIGH);
+	digitalWrite(ledPin, HIGH);
 
-delay(750);
+	delay(750);
 
-digitalWrite(ledPin, LOW);
+	digitalWrite(ledPin, LOW);
 
-delay(750);
+	delay(250);
+
+
+
+	digitalWrite(ledPin, HIGH);
+
+	delay(750);
+
+	digitalWrite(ledPin, LOW);
+
+	delay(750);
 
 
 
 //S
 
-digitalWrite(ledPin, HIGH);
+	digitalWrite(ledPin, HIGH);
 
-delay(250);
+	delay(250);
 
-digitalWrite(ledPin, LOW);
+	digitalWrite(ledPin, LOW);
 
-delay(250);
-
-
-
-digitalWrite(ledPin, HIGH);
-
-delay(250);
-
-digitalWrite(ledPin, LOW);
-
-delay(250);
+	delay(250);
 
 
 
-digitalWrite(ledPin, HIGH);
+	digitalWrite(ledPin, HIGH);
 
-delay(250);
+	delay(250);
 
-digitalWrite(ledPin, LOW);
+	digitalWrite(ledPin, LOW);
 
-delay(1000);
+	delay(250);
+
+
+
+	digitalWrite(ledPin, HIGH);
+
+	delay(250);
+
+	digitalWrite(ledPin, LOW);
+
+	delay(1000);
 
 
 
