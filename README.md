@@ -1,130 +1,130 @@
-//Kevin Doench
+	//Kevin Doench
 
-//ECE 387
+	//ECE 387
 
-//Section A
+	//Section A
 
-//Dr. Jamieson
+	//Dr. Jamieson
 
-//February 24, 2019
+	//February 24, 2019
 
-//The following code is the prerequesite assignment to build an SOS blinker
+	//The following code is the prerequesite assignment to build an SOS blinker
 
-//using a microprocessor (Arduino, in my case).
+	//using a microprocessor (Arduino, in my case).
 
-//An SOS signal in Morse Code is: ... (S) --- (O) ...(S)
+	//An SOS signal in Morse Code is: ... (S) --- (O) ...(S)
 
 
-int ledPin = 8;
+	int ledPin = 8;
 
-void setup() {
+	void setup() {
 
-pinMode(ledPin,OUTPUT);
+	pinMode(ledPin,OUTPUT);
 
-}
+	}
 
 
-void loop() {
+	void loop() {
 
-// put your main code here, to run repeatedly:
+	// put your main code here, to run repeatedly:
 
 
-//S
+	//S
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(250);
+		delay(250);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(250);
+		delay(250);
 
 
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(250);
+		delay(250);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(250);
+		delay(250);
 
 
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(250);
+		delay(250);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(750);
+		delay(750);
 
 
 
-//O
+	//O
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(750);
+		delay(750);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(250);
+		delay(250);
 
 
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(750);
+		delay(750);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(250);
+		delay(250);
 
 
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(750);
+		delay(750);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(750);
+		delay(750);
 
 
 
-//S
+	//S
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(250);
+		delay(250);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(250);
+		delay(250);
 
 
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(250);
+		delay(250);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(250);
+		delay(250);
 
 
 
-	digitalWrite(ledPin, HIGH);
+		digitalWrite(ledPin, HIGH);
 
-	delay(250);
+		delay(250);
 
-	digitalWrite(ledPin, LOW);
+		digitalWrite(ledPin, LOW);
 
-	delay(1000);
+		delay(1000);
 
 
 
-//Repeat
+	//Repeat
 
-}
+	}
